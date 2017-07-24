@@ -1,3 +1,11 @@
+require 'bundler/setup'
+require 'github_api'
+require 'awesome_print'
+require 'pp'
+require 'pry-byebug'
+require 'net/http'
+require 'uri'
+
 require 'rspec'
 require_relative '../my_class'
 
